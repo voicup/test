@@ -1,4 +1,4 @@
 language: go
 script: 
- - go install voicup/test/foo
+ - go install github.com/voicup/test/foo
  - $GOPATH/bin/foo
