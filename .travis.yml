@@ -2,3 +2,4 @@ language: go
 script: 
  - go install github.com/voicup/test/foo
  - $GOPATH/bin/foo
+ - mvn install -f java/jc/pom.xml -Dmaven.test.skip=true
